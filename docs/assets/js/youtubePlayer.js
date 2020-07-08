@@ -8,6 +8,7 @@ var player = document.getElementById('youtubePlayer');
 var lastThis = document.getElementById('lastThis')
 
 console.log(today, hour)
+
 if (today == 'Thu' && hour >= 18) {
   // player.innerHTML = `<iframe id="ytplayer" type="text/html" width="90%" height="67%" src="https://www.youtube.com/embed/${nextStream}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   player.innerHTML = `<iframe id="ytplayer" type="text/html" width="90%" height="55%" src="https://www.youtube.com/playlist?list=PLxdt1dYCiWA5UBzJngYw7exKZcYSiE2R_" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen rel='0'></iframe>`;
@@ -29,7 +30,7 @@ else {
 // YouTube player after the API code downloads.
 // var player;
 // function onYouTubePlayerAPIReady() {
-//   player = new YT.Player('ytplayer', {
+//   player = new YT.Player('ytplasyer', {
 //     height: '67%',
 //     width: '90%',
 //     videoId: lastEpisode,
