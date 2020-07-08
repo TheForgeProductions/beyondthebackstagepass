@@ -1,0 +1,220 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#lastThis {}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+    box-sizing: content-box;
+}
+
+.nav-item {
+    background-color: rgb(0, 0, 0, 92%);
+    color: white;
+}
+
+li {
+    background-color: rgb(0, 0, 0, 92%);
+    color: white;
+}
+
+.navicon {
+    font-size: 2rem;
+    color: white;
+}
+
+#youtubePlayer {
+    background-image: url("../img/roadcase_viewer_sm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    /* top: 100px; */
+}
+
+@media only screen and (max-width: 349px) {
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer_sm.jpg");
+        width: 300px;
+        height: 244px;
+        position: relative;
+        padding-top: 60px;
+        top: 100px;
+    }
+    #wrapper {
+        width: 325px;
+    }
+    #spacer {
+        height: 35px;
+    }
+    #headline {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer_sm.jpg");
+        width: 348px;
+        height: 283px;
+        padding-top: 50px;
+    }
+    #wrapper {
+        width: 373px;
+    }
+    #spacer {
+        height: 50px;
+    }
+    #headline {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 475px) {
+    .navicon {
+        font-size: 3rem;
+    }
+    
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer_sm.jpg");
+        width: 470px;
+        height: 383px;
+        padding-top: 70px;
+    }
+    #wrapper {
+        width: 600px;
+    }
+    #spacer {
+        height: 70px;
+    }
+    #headline {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navicon {
+        font-size: 4rem;
+    }
+
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer.jpg");
+        width: 580px;
+        height: 472px;
+        padding-top: 95px;
+    }
+    #wrapper {
+        width: 610px;
+    }
+    #spacer {
+        height: 95px;
+    }
+    #headline {
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer.jpg");
+        width: 740px;
+        height: 602px;
+        padding-top: 105px;
+    }
+    #wrapper {
+        width: 775px;
+    }
+    #spacer {
+        height: 105px;
+    }
+    #headline {
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer.jpg");
+        width: 860px;
+        height: 700px;
+        padding-top: 120px;
+    }
+    #wrapper {
+        width: 890px;
+    }
+    #spacer {
+        height: 120px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer_lg.jpg");
+        width: 1180px;
+        height: 960px;
+        padding-top: 170px;
+    }
+    #wrapper {
+        width: 1215px;
+    }
+    #spacer {
+        height: 170px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #youtubePlayer {
+        background-image: url("../img/roadcase_viewer_lg.jpg");
+        width: 1930px;
+        height: 1085px;
+        padding-top: 190px;
+    }
+    #wrapper {
+        width: 1960px;
+        min-height: 700px
+    }
+}
+
+.navBar {
+    margin-left: auto;
+    margin-right: auto;
+    height: 5%;
+    width: 80%;
+    min-height: 100px;
+    /* position: fixed; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    z-index: 5;
+    background-color: rgb(0, 0, 0, 92%);
+}
+
+.episode-div {
+    /* display: block; */
+    background-image: url('../img/rack_space.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.episode-wrapper {
+    width: 75%;
+}
+
+.nav-offset {
+    min-height: 200px;
+}
+
+.link-div {
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    background-size: 100%;
+    background-position: center;
+    max-width: 1104px;
+}
